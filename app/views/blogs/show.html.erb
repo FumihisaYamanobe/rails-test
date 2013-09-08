@@ -1,6 +1,9 @@
 <h1><%= @blog.title %></h1>
 <p>
-  <%= @blog.contents %>
+  <h3>contents</h3><br>
+  <%= @blog.contents %><br><br><br>
+  <h3>tag</h3><br>
+  <%= @blog.tag %><br>
 </p>
 <p>
   <%= link_to "編集", edit_blog_path %>
