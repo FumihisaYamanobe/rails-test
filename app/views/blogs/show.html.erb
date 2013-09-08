@@ -1,5 +1,8 @@
-<h1>Show</h1>
+<h1><%= @blog.title %></h1>
 <p>
-  <h2><%= @blog.title %></h2><br>
   <%= @blog.contents %>
+</p>
+<p>
+  <%= link_to "編集", edit_blog_path %>
+  <%= link_to "削除", "/" %>
 </p>
