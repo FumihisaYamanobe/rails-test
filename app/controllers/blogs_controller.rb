@@ -33,7 +33,7 @@ class BlogsController < ApplicationController
     @blog = Blog.find(params[:id])
     @blog.destroy
     redirect_to :blogs
-  end
+  end  
 
   private
     def blog_params
